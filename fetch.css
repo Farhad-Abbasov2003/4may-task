@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: sans-serif;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 2rem;
+  color: white;
+  position: relative;
+}
+.container > i {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 2.3rem;
+  left: 1rem;
+  color: #0079fe;
+}
+.container input {
+  padding: 2rem 4rem;
+  padding-top: 2.5rem;
+  width: 100%;
+  background-color: #1f2a48;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.container input::-moz-placeholder {
+  font-size: 1.5rem;
+  color: white;
+}
+.container input::placeholder {
+  font-size: 1.5rem;
+  color: white;
+}
+.container button {
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+  background-color: #0079fe;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+}
+.container .card {
+  background-color: #1f2a48;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  color: white;
+}
+.container .card .avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 2.5rem;
+}
+.container .card .card-info {
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+}
+.container .card .card-info .login {
+  margin-bottom: 2rem;
+}
+.container .card .card-info .card-info-2 {
+  display: flex;
+  background-color: #141c2f;
+  margin-top: 3rem;
+  gap: 16rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.container .card .card-info .card-info-3 {
+  gap: 8rem;
+}
+.container .card .card-info .card-info-3 .konum {
+  margin-block: 1.5rem;
+}
+.container .card .card-info .card-info-3 .konum i {
+  font-size: 1.5rem;
+}
+.container .card .card-info .card-info-3 .url {
+  margin-block: 1.5rem;
+}
+.container .card .card-info .card-info-3 .url i {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=fetch.css.map */
